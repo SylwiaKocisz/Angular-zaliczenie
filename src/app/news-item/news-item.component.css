@@ -1,11 +1,16 @@
 .odd {
-  background-color: rgb(115, 170, 221);
+  background-color: rgb(235, 208, 230);
 }
 
 .even {
-  background-color: rgb(207, 178, 235);
+  background-color: rgb(221, 207, 235);
 }
 
-.news-item{
-  border: 1px dashed salmon
+.news{
+  border: 1px dashed rgb(210, 220, 235)
+}
+
+.button{
+  height: 30px;
+  border: 1px outset rgb(210, 220, 235)
 }

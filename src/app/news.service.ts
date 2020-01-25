@@ -37,10 +37,6 @@ export class NewsService {
     this.onChange.emit();
   }
 
-  public refresh() {
-    this.onChange.emit();
-  }
-
   public likeUp(id: number) {
     const index: number = this.findNewsIndexById(id);
 
